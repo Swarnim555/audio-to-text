@@ -31,7 +31,7 @@ print("\nThis will take 2-5 minutes...\n")
 import whisper
 
 # Download fresh model
-model = whisper.load_model("medium")
+model = whisper.load_model("large-v3")
 
 print("\n" + "="*70)
 print("  ✅ MODEL FIXED AND READY!")
